@@ -3,7 +3,7 @@
 - Authenticated Cognito users require you to deal with both IAM Policy that is
   associated with the identity and the IOT Policy.
 
--You will need to run `attach-principal-policy` command whenever you are dealing with authenticated Cognito users. I'm not sure why that is the case.
+- You will need to run `attach-principal-policy` command whenever you are dealing with authenticated Cognito users. I'm not sure why that is the case.
 
 - You can listen to _IOT mqtt_ events, the simplest query `SELECT * FROM 'myTopic'`
 
