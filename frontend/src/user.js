@@ -4,10 +4,10 @@ import { useAsync } from "react-async";
 
 Amplify.configure({
   Auth: {
-    identityPoolId: "us-east-1:fd4a0cf9-23a2-4357-b113-03270c6483ea",
+    identityPoolId: "us-east-1:dfce3d0d-b161-47bc-acda-f5f3ccbcff76",
     region: "us-east-1",
-    userPoolId: "us-east-1_D7uifm6dV",
-    userPoolWebClientId: "sbd24i66ejv8rauefpv6oc6c4"
+    userPoolId: "us-east-1_ARxhjWdKv",
+    userPoolWebClientId: "2p2r5hgunvumbc4an4ilv726jp"
   }
 });
 

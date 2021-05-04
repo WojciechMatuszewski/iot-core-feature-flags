@@ -8,7 +8,7 @@ Amplify.addPluggable(
   new AWSIoTProvider({
     aws_pubsub_region: "us-east-1",
     aws_pubsub_endpoint:
-      "wss://a2co5dgg9u0rc8-ats.iot.us-east-1.amazonaws.com/mqtt"
+      "wss://au8j1jfsb53ln-ats.iot.us-east-1.amazonaws.com/mqtt"
   })
 );
 
@@ -16,7 +16,7 @@ API.configure({
   endpoints: [
     {
       name: "backend",
-      endpoint: "https://rf3ilvmhkd.execute-api.us-east-1.amazonaws.com"
+      endpoint: "https://1r2nwr46qa.execute-api.us-east-1.amazonaws.com"
     }
   ]
 });
@@ -27,7 +27,7 @@ async function getFlags({ clientID }) {
 
 async function setFlag([{ clientID, flagName, value }]) {
   return fetch(
-    `https://rf3ilvmhkd.execute-api.us-east-1.amazonaws.com/flag/${clientID}`,
+    `https://1r2nwr46qa.execute-api.us-east-1.amazonaws.com/flag/${clientID}`,
     {
       method: "POST",
       body: JSON.stringify({
